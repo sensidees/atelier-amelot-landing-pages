@@ -936,7 +936,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: stretch;
-  max-height: calc(100vh - 180px);
+  /* Hauteur fixe pour matcher Claude Design preview (indépendant de vh).
+     L'ancien calc(100vh - 180px) variait selon la hauteur de la fenêtre Chrome
+     et donnait une section sur-dimensionnée sur grands écrans (vh=855 → 675px). */
+  max-height: 540px;
   min-height: 540px;
 }
 .bp-about__col--text {
