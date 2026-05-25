@@ -1,0 +1,117 @@
+/* =====================================================================
+ * Atelier Amelot · Design Tokens
+ * Brutalist streetwear-premium / B2B textile marquage Paris 11.
+ * Strict B&W. Zero radius. Zero shadow. Sans-serif only.
+ * ===================================================================== */
+
+@font-face {
+  font-family: "URW DIN";
+  src: url("./fonts/urw-din-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "URW DIN Condensed";
+  src: url("./fonts/urw-din-condensed-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fallback: DM Sans + DM Sans Condensed are imported via <link> in HTML. */
+
+:root {
+  /* ---------- COLORS ------------------------------------------------- */
+  --aa-black:        #000000;
+  --aa-ink:          #1A1A1A;   /* near-black, body text */
+  --aa-graphite:     #6B6B6B;   /* secondary text, meta */
+  --aa-rule:         #E5E5E5;   /* hairline borders, dividers */
+  --aa-paper:        #F5F5F5;   /* product card surfaces */
+  --aa-white:        #FFFFFF;
+  --aa-error:        #C8161D;   /* the ONLY chromatic accent allowed */
+
+  /* Semantic */
+  --aa-fg:           var(--aa-ink);
+  --aa-fg-muted:     var(--aa-graphite);
+  --aa-fg-inverse:   var(--aa-white);
+  --aa-bg:           var(--aa-white);
+  --aa-bg-alt:       var(--aa-paper);
+  --aa-bg-inverse:   var(--aa-black);
+  --aa-border:       var(--aa-rule);
+  --aa-border-strong: var(--aa-black);
+
+  /* ---------- TYPOGRAPHY -------------------------------------------- */
+  --aa-font-display:  "URW DIN Condensed", "DM Sans Condensed", "Barlow Condensed", "Arial Narrow", sans-serif;
+  --aa-font-body:     "URW DIN", "DM Sans", -apple-system, system-ui, "Helvetica Neue", Arial, sans-serif;
+
+  /* Type scale · display (condensed bold, UPPERCASE) */
+  --aa-display-xxl:  clamp(48px, 6vw, 88px);
+  --aa-display-xl:   clamp(40px, 4.4vw, 64px);
+  --aa-display-lg:   clamp(28px, 2.6vw, 40px);
+  --aa-display-md:   22px;
+  --aa-display-sm:   16px;
+  --aa-display-xs:   12px;   /* small uppercase eyebrows */
+
+  /* Type scale · body (regular, lowercase) */
+  --aa-body-lg:      18px;
+  --aa-body-md:      15px;
+  --aa-body-sm:      13px;
+  --aa-body-xs:      11px;
+
+  /* Line-heights */
+  --aa-lh-tight:     1.0;
+  --aa-lh-display:   1.05;
+  --aa-lh-snug:      1.25;
+  --aa-lh-body:      1.55;
+
+  /* Letter-spacing */
+  --aa-tracking-display:  0.01em;
+  --aa-tracking-eyebrow:  0.06em;
+  --aa-tracking-button:   0.04em;
+  --aa-tracking-body:     0;
+
+  /* Weights */
+  --aa-weight-regular: 400;
+  --aa-weight-bold:    700;
+
+  /* ---------- SPACING ----------------------------------------------- */
+  --aa-space-1:    4px;
+  --aa-space-2:    8px;
+  --aa-space-3:    12px;
+  --aa-space-4:    16px;
+  --aa-space-5:    24px;
+  --aa-space-6:    32px;
+  --aa-space-7:    48px;
+  --aa-space-8:    64px;
+  --aa-space-9:    96px;
+  --aa-space-10:   128px;
+
+  /* ---------- LAYOUT ------------------------------------------------ */
+  --aa-container:    1440px;
+  --aa-gutter:       var(--aa-space-5);
+  --aa-grid-gap:     var(--aa-space-3);
+
+  /* ---------- BORDER / SHAPE ---------------------------------------- */
+  --aa-radius:       0;
+  --aa-radius-pill:  9999px;     /* circles only · brand markings, dots */
+  --aa-border-hairline: 1px solid var(--aa-rule);
+  --aa-border-strong-line: 1px solid var(--aa-black);
+
+  /* ---------- ELEVATION --------------------------------------------- */
+  --aa-shadow:       none;       /* always none. brutalist. */
+
+  /* ---------- MOTION ------------------------------------------------ */
+  --aa-ease:         cubic-bezier(0.4, 0, 0.2, 1);
+  --aa-dur-fast:     150ms;
+  --aa-dur-base:     250ms;
+  --aa-dur-slow:     400ms;
+
+  /* ---------- Z-INDEX ----------------------------------------------- */
+  --aa-z-base:       1;
+  --aa-z-sticky:     50;
+  --aa-z-header:     100;
+  --aa-z-overlay:    900;
+  --aa-z-modal:      1000;
+}
