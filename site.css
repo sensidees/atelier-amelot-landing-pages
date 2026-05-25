@@ -22,9 +22,9 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 
 /* ---------- Topbar + Header ---------- */
 .aa-topbar {
-  display: flex; justify-content: flex-end; gap: 27.5px;
-  padding: 11.25px 40px; background: #fff; border-bottom: 1px solid var(--aa-rule);
-  font-size: 13.75px; color: var(--aa-ink);
+  display: flex; justify-content: flex-end; gap: 28px;
+  padding: 11px 40px; background: #fff; border-bottom: 1px solid var(--aa-rule);
+  font-size: 14px; color: var(--aa-ink);
 }
 .aa-topbar a { color: #1A1A1A; text-decoration: none; }
 .aa-topbar a:hover { opacity: 0.6; }
@@ -37,13 +37,13 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
   flex-wrap: nowrap;
 }
 .aa-brand {
-  display: flex; align-items: center; gap: 12.5px;
+  display: flex; align-items: center; gap: 13px;
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 18.75px; letter-spacing: 0.03em; color: #000; text-decoration: none;
+  font-size: 19px; letter-spacing: 0.03em; color: #000; text-decoration: none;
   white-space: nowrap; flex-shrink: 0;
 }
 .aa-brand .slash { color: var(--aa-graphite); margin: 0 5px; font-weight: 400; }
-.aa-nav { display: flex; gap: 22.5px; flex: 1; justify-content: center; }
+.aa-nav { display: flex; gap: 23px; flex: 1; justify-content: center; }
 .aa-nav a {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
   font-size: 15px; letter-spacing: 0.03em; color: #000; text-decoration: none;
@@ -51,15 +51,15 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
   transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
 }
 .aa-nav a:hover { opacity: 0.55; }
-.aa-utility { display: flex; align-items: center; gap: 17.5px; flex-shrink: 0; }
+.aa-utility { display: flex; align-items: center; gap: 18px; flex-shrink: 0; }
 .aa-utility .devis {
-  display: inline-flex; align-items: center; gap: 7.5px;
+  display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 13.75px; letter-spacing: 0.05em;
+  font-size: 14px; letter-spacing: 0.05em;
 }
-.aa-utility .devis .count { background:#000; color:#fff; min-width:17.5px; height:17.5px; padding:0 3.75px; font-size:11.25px; display:inline-flex; align-items:center; justify-content:center; border-radius:9999px;}
+.aa-utility .devis .count { background:#000; color:#fff; min-width:18px; height:18px; padding:0 4px; font-size:11px; display:inline-flex; align-items:center; justify-content:center; border-radius:9999px;}
 .aa-utility .devis, .aa-utility .devis:visited, .aa-utility .devis:link { color: #000; text-decoration: none; }
-.aa-ico { width: 23.75px; height: 23.75px; stroke: #000; stroke-width: 1.6; fill: none; cursor: pointer;}
+.aa-ico { width: 24px; height: 24px; stroke: #000; stroke-width: 1.6; fill: none; cursor: pointer;}
 .aa-ico:hover { opacity: 0.55; }
 
 /* ---------- Layout ---------- */
@@ -70,11 +70,11 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 .aa-section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 30px; padding-bottom: 0; }
 .aa-section-head h2 {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 27.5px; letter-spacing: 0.02em; margin: 0; line-height: 1;
+  font-size: 28px; letter-spacing: 0.02em; margin: 0; line-height: 1;
 }
 .aa-section-head .more {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 13.75px; letter-spacing: 0.06em; color: #000; text-decoration: none;
+  font-size: 14px; letter-spacing: 0.06em; color: #000; text-decoration: none;
   border-bottom: 1px solid #000; padding-bottom: 1px;
 }
 .aa-section-head .more:hover { opacity: 0.55; }
@@ -94,17 +94,17 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 .aa-hero-v3__overlay {
   position: absolute; top: 35px; left: 35px;
   background: #fff; color: #000;
-  padding: 22.5px 20px 20px; width: 350px;
-  display: flex; flex-direction: column; gap: 17.5px;
+  padding: 23px 20px 20px; width: 350px;
+  display: flex; flex-direction: column; gap: 18px;
   z-index: 2;
 }
 .aa-hero-v3__title {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 13.75px; letter-spacing: 0.06em; line-height: 1.5;
+  font-size: 14px; letter-spacing: 0.06em; line-height: 1.5;
   text-align: center;
 }
 .aa-hero-v3__ctas { display: flex; flex-direction: column; gap: 10px; align-items: center; width: 100%; }
-.aa-hero-v3__ctas .aa-btn-i { width: 100%; padding: 13.75px 17.5px; font-size: 13.75px; }
+.aa-hero-v3__ctas .aa-btn-i { width: 100%; padding: 14px 18px; font-size: 14px; }
 
 /* ---------- Button modifiers used inside hero / services ---------- */
 .aa-btn-solid   { background: #000; color: #fff; border-color: #000; }
@@ -132,17 +132,17 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 
 /* ---------- Fournisseurs row with vertical labels ---------- */
 .aa-fournisseurs-row {
-  display: grid; grid-template-columns: repeat(6, 1fr); gap: 7.5px;
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px;
 }
 .aa-fournisseur-cell {
   position: relative; background: #F5F4F0; aspect-ratio: 1/1;
   display: flex; align-items: center; justify-content: center; overflow: hidden;
 }
 .aa-fournisseur-cell .vlabel {
-  position: absolute; top: 0; left: 12.5px;
-  background: #fff; padding: 7.5px 5px;
+  position: absolute; top: 0; left: 13px;
+  background: #fff; padding: 8px 5px;
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 8.75px; letter-spacing: 0.1em; color: #000;
+  font-size: 9px; letter-spacing: 0.1em; color: #000;
   writing-mode: vertical-rl; transform: rotate(180deg);
   white-space: nowrap; line-height: 1;
 }
@@ -168,9 +168,9 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 .aa-usp-cell img { width: 55px; height: 55px; object-fit: contain; }
 .aa-usp-h {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 17.5px; letter-spacing: 0.04em; margin-top: 10px;
+  font-size: 18px; letter-spacing: 0.04em; margin-top: 10px;
 }
-.aa-usp-b { font-size: 16.25px; color: #1A1A1A; line-height: 1.55; }
+.aa-usp-b { font-size: 16px; color: #1A1A1A; line-height: 1.55; }
 
 /* ---------- Hero (legacy) ---------- */
 .aa-hero {
@@ -182,16 +182,16 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
   position: absolute; top: 30px; left: 40px; max-width: 350px;
 }
 .aa-hero .text .eyebrow { font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase; font-size: 15px; letter-spacing: 0.1em; color:#fff; opacity: 0.85; line-height: 1.5;}
-.aa-hero .text .ctas { display:flex; gap: 10px; margin-top: 17.5px;}
+.aa-hero .text .ctas { display:flex; gap: 10px; margin-top: 18px;}
 .aa-hero .display {
-  position: absolute; right: 40px; bottom: 22.5px;
+  position: absolute; right: 40px; bottom: 23px;
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
   font-size: clamp(60px, 6vw, 105px); line-height: 0.92; letter-spacing: 0.005em;
   text-align: right; color: #fff;
 }
 .aa-hero .topbar-secondary {
-  position: absolute; top: 17.5px; right: 40px;
-  display: flex; gap: 15px; color: #fff; font-size: 13.75px; letter-spacing: 0.04em;
+  position: absolute; top: 18px; right: 40px;
+  display: flex; gap: 15px; color: #fff; font-size: 14px; letter-spacing: 0.04em;
 }
 
 /* ---------- Buttons (within UI kit duplicates) ---------- */
@@ -199,7 +199,7 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
   display: inline-flex; align-items:center; justify-content:center;
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
   font-size: 15px; letter-spacing: 0.04em; line-height: 1;
-  padding: 15px 22.5px; border: 1px solid #fff; cursor: pointer;
+  padding: 15px 23px; border: 1px solid #fff; cursor: pointer;
   background: #fff; color: #000; text-decoration: none;
   transition: background 150ms cubic-bezier(0.4,0,0.2,1), color 150ms cubic-bezier(0.4,0,0.2,1);
 }
@@ -224,7 +224,7 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 }
 .aa-marquage .label {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 13.75px; letter-spacing: 0.06em;
+  font-size: 14px; letter-spacing: 0.06em;
 }
 
 /* ---------- Product grid + card ---------- */
@@ -241,12 +241,12 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 }
 .aa-product:hover { background: #ECECEC; }
 .aa-product .new {
-  position: absolute; top: 12.5px; left: 12.5px;
-  font-family: var(--aa-font-display); font-weight: 700; font-size: 12.5px; letter-spacing: 0.08em;
+  position: absolute; top: 13px; left: 13px;
+  font-family: var(--aa-font-display); font-weight: 700; font-size: 13px; letter-spacing: 0.08em;
   text-transform: uppercase; background: transparent; color: #000;
 }
 .aa-product .wish {
-  position: absolute; top: 12.5px; right: 12.5px; width: 22.5px; height: 22.5px;
+  position: absolute; top: 13px; right: 13px; width: 23px; height: 23px;
   stroke: #000; stroke-width: 1.4; fill: none; cursor: pointer;
 }
 .aa-product .img {
@@ -254,13 +254,13 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 }
 .aa-product .img svg { width: 100%; height: 100%; max-height: 225px; }
 .aa-product .info {
-  background: #fff; padding: 15px 17.5px 17.5px; border-top: 1px solid var(--aa-rule);
+  background: #fff; padding: 15px 18px 18px; border-top: 1px solid var(--aa-rule);
 }
 .aa-product .info .ttl {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
   font-size: 15px; letter-spacing: 0.04em;
 }
-.aa-product .info .price { font-size: 13.75px; color: var(--aa-graphite); margin-top: 2.5px; }
+.aa-product .info .price { font-size: 14px; color: var(--aa-graphite); margin-top: 3px; }
 
 /* ---------- Full-bleed atelier band ---------- */
 .aa-atelier-band {
@@ -284,12 +284,12 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 }
 .aa-footer h4 {
   display: block; font-family: var(--aa-font-display); font-weight: 700;
-  text-transform: uppercase; font-size: 13.75px; letter-spacing: 0.08em; margin-bottom: 20px;
+  text-transform: uppercase; font-size: 14px; letter-spacing: 0.08em; margin-bottom: 20px;
 }
 .aa-footer a {
   display: block; font-family: var(--aa-font-display); font-weight: 700;
-  text-transform: uppercase; font-size: 13.75px; letter-spacing: 0.04em;
-  color: #fff; text-decoration: none; margin-bottom: 12.5px;
+  text-transform: uppercase; font-size: 14px; letter-spacing: 0.04em;
+  color: #fff; text-decoration: none; margin-bottom: 13px;
   transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
 }
 .aa-footer a:hover { opacity: 0.55; }
@@ -302,15 +302,15 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 }
 .aa-footer .news input {
   flex: 1; background: transparent; border: 0; color: #fff;
-  font-size: 16.25px; padding: 5px 0; outline: none;
+  font-size: 16px; padding: 5px 0; outline: none;
   font-family: var(--aa-font-body);
 }
 .aa-footer .news input::placeholder { color: rgba(255,255,255,0.5); }
 .aa-footer .news .arrow {
-  font-size: 22.5px; color: #fff; cursor: pointer; line-height: 1;
+  font-size: 23px; color: #fff; cursor: pointer; line-height: 1;
 }
 .aa-footer .news .fine {
-  font-size: 11.25px; color: rgba(255,255,255,0.5); line-height: 1.55;
+  font-size: 11px; color: rgba(255,255,255,0.5); line-height: 1.55;
   margin: 0; font-family: var(--aa-font-body); text-transform: none; letter-spacing: 0;
 }
 
@@ -323,47 +323,7 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 }
 .aa-footer .end > div:first-child {
   font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 13.75px; letter-spacing: 0.06em; color: rgba(255,255,255,0.7);
-}
-.aa-footer .end .social {
-  display: flex; gap: 20px; align-items: center;
-}
-.aa-footer .end .social svg {
-  width: 30px; height: 30px; fill: #fff; flex-shrink: 0; cursor: pointer;
-  transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
-}
-.aa-footer .end .social svg:hover { opacity: 0.6; }
-
-/* ---------- Footer : newsletter (4ème colonne) ---------- */
-.aa-footer .news .row {
-  display: flex; align-items: center; gap: 15px;
-  border-bottom: 1px solid rgba(255,255,255,0.3);
-  padding-bottom: 10px; margin-bottom: 15px;
-}
-.aa-footer .news input {
-  flex: 1; background: transparent; border: 0; color: #fff;
-  font-size: 16.25px; padding: 5px 0; outline: none;
-  font-family: var(--aa-font-body);
-}
-.aa-footer .news input::placeholder { color: rgba(255,255,255,0.5); }
-.aa-footer .news .arrow {
-  font-size: 22.5px; color: #fff; cursor: pointer; line-height: 1;
-}
-.aa-footer .news .fine {
-  font-size: 11.25px; color: rgba(255,255,255,0.5); line-height: 1.55;
-  margin: 0; font-family: var(--aa-font-body); text-transform: none; letter-spacing: 0;
-}
-
-/* ---------- Footer : ligne du bas (copyright + social icons) ---------- */
-.aa-footer .end {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 30px 40px 40px;
-  border-top: 1px solid rgba(255,255,255,0.15);
-  margin-top: 20px;
-}
-.aa-footer .end > div:first-child {
-  font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
-  font-size: 13.75px; letter-spacing: 0.06em; color: rgba(255,255,255,0.7);
+  font-size: 14px; letter-spacing: 0.06em; color: rgba(255,255,255,0.7);
 }
 .aa-footer .end .social {
   display: flex; gap: 20px; align-items: center;

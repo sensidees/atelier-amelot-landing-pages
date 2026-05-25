@@ -50,15 +50,15 @@
   --aa-display-xxl:  clamp(60px, 6vw, 110px);
   --aa-display-xl:   clamp(50px, 4.4vw, 80px);
   --aa-display-lg:   clamp(35px, 2.6vw, 50px);
-  --aa-display-md:   27.5px;
+  --aa-display-md:   28px;
   --aa-display-sm:   20px;
   --aa-display-xs:   15px;   /* small uppercase eyebrows */
 
   /* Type scale · body (regular, lowercase) */
-  --aa-body-lg:      22.5px;
-  --aa-body-md:      18.75px;
-  --aa-body-sm:      16.25px;
-  --aa-body-xs:      13.75px;
+  --aa-body-lg:      23px;
+  --aa-body-md:      19px;
+  --aa-body-sm:      16px;
+  --aa-body-xs:      14px;
 
   /* Line-heights */
   --aa-lh-tight:     1.0;
