@@ -6,6 +6,17 @@
 @import url("./tokens.css");
 @import url("./colors_and_type.css");
 
+/* -------------------------------------------------------------------- *
+ * Global render scale 1.25 — matches the Claude Design preview output
+ * Reproduit le rendu observé dans Claude Design (preview iframe à 125%).
+ * Désactiver cette règle pour revenir au rendu à échelle native.
+ * -------------------------------------------------------------------- */
+html { zoom: 1.25; }
+@supports not (zoom: 1) {
+  /* Fallback rare (anciens Firefox <126). Désactivé par défaut. */
+  /* body { transform: scale(1.25); transform-origin: top left; width: 80%; } */
+}
+
 html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
 
 /* ---------- Topbar + Header ---------- */
