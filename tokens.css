@@ -47,18 +47,18 @@
   --aa-font-body:     "URW DIN", "DM Sans", -apple-system, system-ui, "Helvetica Neue", Arial, sans-serif;
 
   /* Type scale · display (condensed bold, UPPERCASE) */
-  --aa-display-xxl:  clamp(48px, 6vw, 88px);
-  --aa-display-xl:   clamp(40px, 4.4vw, 64px);
-  --aa-display-lg:   clamp(28px, 2.6vw, 40px);
-  --aa-display-md:   22px;
-  --aa-display-sm:   16px;
-  --aa-display-xs:   12px;   /* small uppercase eyebrows */
+  --aa-display-xxl:  clamp(60px, 6vw, 110px);
+  --aa-display-xl:   clamp(50px, 4.4vw, 80px);
+  --aa-display-lg:   clamp(35px, 2.6vw, 50px);
+  --aa-display-md:   27.5px;
+  --aa-display-sm:   20px;
+  --aa-display-xs:   15px;   /* small uppercase eyebrows */
 
   /* Type scale · body (regular, lowercase) */
-  --aa-body-lg:      18px;
-  --aa-body-md:      15px;
-  --aa-body-sm:      13px;
-  --aa-body-xs:      11px;
+  --aa-body-lg:      22.5px;
+  --aa-body-md:      18.75px;
+  --aa-body-sm:      16.25px;
+  --aa-body-xs:      13.75px;
 
   /* Line-heights */
   --aa-lh-tight:     1.0;
@@ -77,19 +77,19 @@
   --aa-weight-bold:    700;
 
   /* ---------- SPACING ----------------------------------------------- */
-  --aa-space-1:    4px;
-  --aa-space-2:    8px;
-  --aa-space-3:    12px;
-  --aa-space-4:    16px;
-  --aa-space-5:    24px;
-  --aa-space-6:    32px;
-  --aa-space-7:    48px;
-  --aa-space-8:    64px;
-  --aa-space-9:    96px;
-  --aa-space-10:   128px;
+  --aa-space-1:    5px;
+  --aa-space-2:    10px;
+  --aa-space-3:    15px;
+  --aa-space-4:    20px;
+  --aa-space-5:    30px;
+  --aa-space-6:    40px;
+  --aa-space-7:    60px;
+  --aa-space-8:    80px;
+  --aa-space-9:    120px;
+  --aa-space-10:   160px;
 
   /* ---------- LAYOUT ------------------------------------------------ */
-  --aa-container:    1440px;
+  --aa-container:    1800px;
   --aa-gutter:       var(--aa-space-5);
   --aa-grid-gap:     var(--aa-space-3);
 

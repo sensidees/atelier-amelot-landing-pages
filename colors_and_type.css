@@ -96,7 +96,7 @@ html, body {
   border: 1px solid var(--aa-black);
   background: var(--aa-black);
   color: var(--aa-white);
-  padding: 14px 22px;
+  padding: 17.5px 27.5px;
   cursor: pointer;
   user-select: none;
   border-radius: 0;
@@ -111,7 +111,7 @@ html, body {
 }
 .aa-btn:hover { background: var(--aa-white); color: var(--aa-black); }
 .aa-btn:active { transform: translateY(1px); }
-.aa-btn:focus-visible { outline: 2px solid var(--aa-black); outline-offset: 2px; }
+.aa-btn:focus-visible { outline: 2.5px solid var(--aa-black); outline-offset: 2.5px; }
 
 .aa-btn--secondary {
   background: var(--aa-white);
@@ -128,9 +128,9 @@ html, body {
 }
 .aa-btn--ghost:hover { background: transparent; opacity: 0.55; color: var(--aa-black); }
 
-.aa-btn--sm { padding: 10px 14px; font-size: 11px; }
-.aa-btn--md { padding: 14px 22px; font-size: 13px; }
-.aa-btn--lg { padding: 18px 32px; font-size: 14px; }
+.aa-btn--sm { padding: 12.5px 17.5px; font-size: 13.75px; }
+.aa-btn--md { padding: 17.5px 27.5px; font-size: 16.25px; }
+.aa-btn--lg { padding: 22.5px 40px; font-size: 17.5px; }
 
 .aa-btn[disabled],
 .aa-btn[aria-disabled="true"] {
@@ -149,7 +149,7 @@ html, body {
   border: none;
   border-bottom: 1px solid var(--aa-black);
   border-radius: 0;
-  padding: 12px 0 10px;
+  padding: 15px 0 12.5px;
   width: 100%;
   outline: none;
   transition: border-color var(--aa-dur-fast) var(--aa-ease);
