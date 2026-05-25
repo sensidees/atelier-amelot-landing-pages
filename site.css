@@ -7,17 +7,22 @@
 @import url("./colors_and_type.css");
 
 /* -------------------------------------------------------------------- *
- * Global render scale 1.25 — matches the Claude Design preview output
- * Reproduit le rendu observé dans Claude Design (preview iframe à 125%).
- * Désactiver cette règle pour revenir au rendu à échelle native.
+ * Render parity with Claude Design preview (1536px viewport @ 125% zoom)
+ *
+ * 1. html { zoom: 1.25 } scales the rendering visually +25%
+ * 2. body { max-width: 1536px } caps the layout container so that
+ *    .aa-container et al. compute their auto-margins on 1536 (not 1920),
+ *    reproducing Claude Design's left/right gutters exactly.
+ *
+ * 1920 / 1.25 = 1536 → body cappé pour matcher l'espace visible après zoom.
+ * À retirer si le proto est repris pour la prod et qu'un autre design
+ * system (Next.js + Tailwind) est mis en place.
  * -------------------------------------------------------------------- */
 html { zoom: 1.25; }
-@supports not (zoom: 1) {
-  /* Fallback rare (anciens Firefox <126). Désactivé par défaut. */
-  /* body { transform: scale(1.25); transform-origin: top left; width: 80%; } */
-}
+body { max-width: 1536px; margin: 0 auto; }
 
-html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
+html, body { background: var(--aa-white); color: var(--aa-ink); }
+body { margin-top: 0; margin-bottom: 0; }
 
 /* ---------- Topbar + Header ---------- */
 .aa-topbar {

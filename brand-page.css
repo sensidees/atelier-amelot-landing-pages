@@ -1997,8 +1997,10 @@
 }
 .bp-hero-bp__grid {
   display: grid;
+  /* 100% (au lieu de 100vw) pour que le calc s'aligne sur le body capé à 1536
+     et reproduise exactement l'alignement Claude Design preview à 125%. */
   grid-template-columns:
-    minmax(32px, calc((100vw - 1440px) / 2 + 32px))
+    minmax(32px, calc((100% - 1440px) / 2 + 32px))
     minmax(0, 1.05fr)
     minmax(0, 1fr);
   gap: 0;
