@@ -293,3 +293,83 @@ html, body { background: var(--aa-white); color: var(--aa-ink); margin: 0; }
   transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
 }
 .aa-footer a:hover { opacity: 0.55; }
+
+/* ---------- Footer : newsletter (4ème colonne) ---------- */
+.aa-footer .news .row {
+  display: flex; align-items: center; gap: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 10px; margin-bottom: 15px;
+}
+.aa-footer .news input {
+  flex: 1; background: transparent; border: 0; color: #fff;
+  font-size: 16.25px; padding: 5px 0; outline: none;
+  font-family: var(--aa-font-body);
+}
+.aa-footer .news input::placeholder { color: rgba(255,255,255,0.5); }
+.aa-footer .news .arrow {
+  font-size: 22.5px; color: #fff; cursor: pointer; line-height: 1;
+}
+.aa-footer .news .fine {
+  font-size: 11.25px; color: rgba(255,255,255,0.5); line-height: 1.55;
+  margin: 0; font-family: var(--aa-font-body); text-transform: none; letter-spacing: 0;
+}
+
+/* ---------- Footer : ligne du bas (copyright + social icons) ---------- */
+.aa-footer .end {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 30px 40px 40px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin-top: 20px;
+}
+.aa-footer .end > div:first-child {
+  font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
+  font-size: 13.75px; letter-spacing: 0.06em; color: rgba(255,255,255,0.7);
+}
+.aa-footer .end .social {
+  display: flex; gap: 20px; align-items: center;
+}
+.aa-footer .end .social svg {
+  width: 30px; height: 30px; fill: #fff; flex-shrink: 0; cursor: pointer;
+  transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
+}
+.aa-footer .end .social svg:hover { opacity: 0.6; }
+
+/* ---------- Footer : newsletter (4ème colonne) ---------- */
+.aa-footer .news .row {
+  display: flex; align-items: center; gap: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 10px; margin-bottom: 15px;
+}
+.aa-footer .news input {
+  flex: 1; background: transparent; border: 0; color: #fff;
+  font-size: 16.25px; padding: 5px 0; outline: none;
+  font-family: var(--aa-font-body);
+}
+.aa-footer .news input::placeholder { color: rgba(255,255,255,0.5); }
+.aa-footer .news .arrow {
+  font-size: 22.5px; color: #fff; cursor: pointer; line-height: 1;
+}
+.aa-footer .news .fine {
+  font-size: 11.25px; color: rgba(255,255,255,0.5); line-height: 1.55;
+  margin: 0; font-family: var(--aa-font-body); text-transform: none; letter-spacing: 0;
+}
+
+/* ---------- Footer : ligne du bas (copyright + social icons) ---------- */
+.aa-footer .end {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 30px 40px 40px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin-top: 20px;
+}
+.aa-footer .end > div:first-child {
+  font-family: var(--aa-font-display); font-weight: 700; text-transform: uppercase;
+  font-size: 13.75px; letter-spacing: 0.06em; color: rgba(255,255,255,0.7);
+}
+.aa-footer .end .social {
+  display: flex; gap: 20px; align-items: center;
+}
+.aa-footer .end .social svg {
+  width: 30px; height: 30px; fill: #fff; flex-shrink: 0; cursor: pointer;
+  transition: opacity 150ms cubic-bezier(0.4,0,0.2,1);
+}
+.aa-footer .end .social svg:hover { opacity: 0.6; }
